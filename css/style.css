@@ -1,45 +1,188 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
 
+a{
+    text-decoration: none;
 }
 
 .logo{
     padding: 10px;
-    margin-left: 30%;
+    margin-left: 16%;
 }
+
 .header{
     padding: 10px;
     padding-bottom: 25px;
-    margin-left: 10px;
-    width: 50%;
+    margin-left: 10%;
+    width: 75%;
     height: 25%;
-    background: color;
-    
 }
 
-.buttons{
+.headerButtons{
     background: black;
     width: 950px;
-    height: 5px;
-    margin-left: 15%;
-    padding: 22px;
-    padding-left: 15px;
-    padding-top: 10px;
+    height: 30px;
+    margin-left: 12.5%;
+    padding: 5px;
+    padding-left: 25px;
+    padding-top: 12.5px;
     position: absolute;
-}
-.headerlogo{
-    width: 100%;
-    height: 100%;
-    
 }
 
 .button{
-    margin: 10px;   
-    padding: 10px;
-    margin-bottom: 10px;
     color: white;
-    text-decoration: none;
     font-weight: bold;
-    font-size: 17px;
+}
+
+.headerLogo{
+    width: 100%;
+    height: 100%;
+}
+
+.headerButtonImg{
+    width: 10px;
+    height: 10px;
+}
+
+.text{
+    background: yellow;
+    margin-bottom: 25px;
+}
+
+.textTitle{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-left: 500px;
+}
+
+.textText{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.textP{
+    margin: 0;
+    padding: 25px 0;
+}
+
+.textButtonText{
+    margin-left: 390px;
+    border: 1px solid white;
+    background: white;
+    padding: 5px 25px;
+}
+
+.textButtonText:hover{
+    background: black;
+    color: white;
+}
+
+.footerLogo{
+    width: 100%;
+    height: 100%;
+}
+
+.images{
+    padding: 25px;
+}
+
+.bannerImg1{
+    background: url("../img/banner-1.jpg") no-repeat;
+    margin-left: 475px;
+}
+
+.bannerImg2{
+    background: url("../img/banner-2.jpg") no-repeat;
+    margin: 0 10px;
+}
+
+.bannerImg3{
+    background: url("../img/banner-3.jpg") no-repeat;
+}
+
+.bannerImg1, .bannerImg2, .bannerImg3{
+    width: 300px;
+    height: 220px;
+    display: inline-block;
+}
+
+.bannerImg1:hover .bannerText1{
+    opacity: 1;
+}
+
+.bannerImg2:hover .bannerText2{
+    opacity: 1;
+}   
+
+.bannerImg3:hover .bannerText3{
+    opacity: 1;
+}
+
+.bannerText1, .bannerText2, .bannerText3{
+    text-align:center;
+    opacity: 0;
+    padding: 101px 110px;
+    color: white;
+    font-weight: bold;
+    background: rgba(34,41,49,0.8);
+}
+
+.footerButton1, .footerButton2, .footerButton3{
+    display: inline-block;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    max-width: 300px;
+    padding: 10px 100px;
+}
+
+.footerButtons{
+    position: absolute;
+}
+
+.footerButton1{
+    margin-left: 425px;
+}
+
+.footerButton2{
+    margin: 0 10px;
+}
+
+.footerButton1:hover{
+    color: white;
+    background: black;
+}
+
+.footerButton2:hover{
+    color: white;
+    background: black;
+}
+
+.footerButton3:hover{
+    color: white;
+    background: black;
+}
+
+.footerP{
+    margin: 0;
+    display:inline-block;
+    padding-top: 10px;
+}
+
+.footerImg{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.footerButtonTitle{
+    padding-left: 10px;
+}
+
+.footerButtonText{
+    padding-left: 10px;
 }
