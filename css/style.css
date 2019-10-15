@@ -2,6 +2,10 @@ body{
     padding: 0;
     margin: 0;
     display: grid;
+    font-family: Archivo;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
 }
 
 a{
@@ -22,14 +26,15 @@ a{
 }
 
 .headerButtons{
-    background: black;
+    background: #222931 ;
     width: 950px;
-    height: 20px;
+    height:20px;
     margin-left: 8%;
-    padding: 12px;
+    padding: 16px;
     padding-left: 25px;
-    padding-top: 5px;
+    padding-top: 10px;
     position: absolute;
+    font-size: 12 px;
 }
 
 .button{
@@ -74,10 +79,12 @@ a{
     border: 1px solid white;
     background: white;
     padding: 5px 25px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .textButtonText:hover{
-    background: black;
+    background: gray;
     color: white;
 }
 
@@ -112,14 +119,20 @@ a{
 
 .bannerImg1:hover .bannerText1{
     opacity: 1;
+    font-size: 32 px;
+    font-weight: 600;
 }
 
 .bannerImg2:hover .bannerText2{
     opacity: 1;
+    font-size: 32 px;
+    font-weight: 600;
 }   
 
 .bannerImg3:hover .bannerText3{
     opacity: 1;
+    font-size: 32 px;
+    font-weight: 600;
 }
 
 .bannerText1, .bannerText2, .bannerText3{
@@ -127,7 +140,7 @@ a{
     opacity: 0;
     padding: 101px 110px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     background: rgba(34,41,49,0.8);
 }
 
@@ -155,17 +168,17 @@ a{
 
 .footerButton1:hover{
     color: white;
-    background: black;
+    background: rgba(34,41,49,0.8);
 }
 
 .footerButton2:hover{
     color: white;
-    background: black;
+    background: rgba(34,41,49,0.8);
 }
 
 .footerButton3:hover{
     color: white;
-    background: black;
+    background: rgba(34,41,49,0.8);
 }
 
 .footerImg{
@@ -213,6 +226,7 @@ a{
     float: left;
     margin-left: 200px;
     max-width: 400px;
+    padding: 10px;
 }
 
 .contact{
@@ -222,20 +236,20 @@ a{
     
 }
 
+.item1, .item2, .item3{
+    width: 300px;
+    height: 50px;
+    padding-bottom: 1px;
+    color: #aeb6be;
+}
+
 .item1Text, .item2Text, .item3Text{
-    color: gray;
+    color: black;
     font-size: 12px;
     font-weight: 400;
     position: absolute;
     padding-left: 10px
 }
-
-.item1, .item2, .item3{
-    width: 300px;
-    height: 50px;
-    padding-bottom: 1px;
-}
-
 .item2Text{
     padding-top: 12.5px;
     padding-left: 10px
@@ -251,7 +265,7 @@ a{
 }
 
 .footerFooter{
-    background: black;
+    background: #5f656d;
     padding: 20px;
 }
 
@@ -260,14 +274,13 @@ a{
     font-weight: bold;
     margin-right: 475px;
     float: right;
-    font-weight: 400;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 12px;
 }
 .dropbtn {
-    background-color: black;
+    background-color: #222931 ;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border: none;
 
   }
@@ -281,7 +294,7 @@ a{
     display: none;
     text-decoration: none;
     position: absolute;
-    background-color: black;
+    background-color: #222931 ;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -290,7 +303,7 @@ a{
   
   .dropdown-content a {
     color: white;
-    padding: 12px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     display: block;
     
@@ -300,10 +313,10 @@ a{
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: yellowgreen;}
+  .dropdown:hover .dropbtn {background-color: #ffe718;}
 
   .dropdown-content a:hover {
-    background-color: greenyellow;
+    background-color: #ffe718;
   }
 
   .textpagina{
@@ -313,7 +326,7 @@ a{
 
   .droptekst {
     background-color: white;
-    color: rgb(175, 175, 34);
+    color: #ffe718;
     padding: 0px;
     border: none;
 
