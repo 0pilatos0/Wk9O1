@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     display: grid;
-    font-family: Archivo;
+    font-family: 'Archivo';
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
@@ -83,7 +83,7 @@ a{
 }
 
 .textButtonText:hover{
-    background: gray;
+    background: lightgray;
     color: white;
 }
 
